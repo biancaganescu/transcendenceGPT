@@ -1,10 +1,9 @@
 import torch
 
 torch.set_printoptions(threshold=float('inf'))
-data = torch.load("./data/card_set/train.pt")
+data = torch.load("./data/card_set_1_train_1_test/train.pt")
 
-print(data[0:2])
-
+print("len data ", len(data))
 count = 0
 for item in data:
     # Check if the item has indexable structure
