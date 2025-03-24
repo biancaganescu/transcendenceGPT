@@ -10406,3 +10406,7 @@ Accuracy: 100.00%
 Precision: 1.0000
 Recall: 1.0000
 F1 Score: 1.0000
+
+
+Number train samples: 18000
+Number test samples: 2000
