@@ -1,5 +1,5 @@
-out_dir = 'out-transcendence-gpt-30-train-30-test'
-eval_interval = 500 # keep frequent because we'll overfit
+out_dir = 'out-transcendence-gpt-2-train-2-test'
+eval_interval = 1000 # keep frequent because we'll overfit
 eval_iters = 1000
 log_interval = 10 # don't print too too often
 
@@ -7,12 +7,12 @@ always_save_checkpoint = True
 
 wandb_log = True # override via command line if you like
 wandb_project = 'transcendence-gpt'
-wandb_run_name = 'first_data_30_train_30_test'
+wandb_run_name = 'first_data_2_train_2_test'
 
-dataset = 'card_set_30_train_30_test'
+dataset = 'card_set_2_train_2_test'
 gradient_accumulation_steps = 4
 batch_size = 16
-block_size = 540 # context of up to 256 previous characters
+block_size = 36 # context of up to 256 previous characters
 
 # baby GPT model :)
 n_layer = 6
