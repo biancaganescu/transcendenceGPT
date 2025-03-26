@@ -6,7 +6,7 @@ from model import GPTConfig, GPT
 import numpy as np
 import matplotlib.pyplot as plt
 # PARAMS
-temperature = 0.0001
+temperature = 0.001
 top_k=5
 seed = 1337
 device = 'cuda' 
@@ -45,7 +45,7 @@ if compile:
 
 data_dir = os.path.join('data', dataset)
 
-test_data = torch.load(os.path.join(data_dir, 'test.pt'))[0]
+test_data = torch.load(os.path.join(data_dir, 'test_in_dist.pt'))[0]
 
 correct_predictions = 0
 

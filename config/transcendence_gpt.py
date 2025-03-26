@@ -10,7 +10,7 @@ wandb_log = True # override via command line if you like
 wandb_project = 'transcendence-gpt'
 wandb_run_name = 'in-distribution'
 
-dataset = 'card_set'
+dataset = 'card_set2'
 gradient_accumulation_steps = 4
 batch_size = 16
 block_size = 540 # context of up to 256 previous characters
