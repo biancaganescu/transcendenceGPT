@@ -1,0 +1,756 @@
+(py310) bianca@bianca-MS-7C00:~/Code/transcendence-transformer/transcendenceGPT$ python eval_model_icl_2.py config/transcendence_gpt_50_train_50_test.py 
+/home/bianca/Code/transcendence-transformer/transcendenceGPT/eval_model_icl_2.py:31: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(ckpt_path, map_location=device)
+number of parameters: 37.77M
+/home/bianca/Code/transcendence-transformer/transcendenceGPT/eval_model_icl_2.py:50: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  test_data = torch.load("./data/in_context_learning_test/len_50_test.pt")[0]
+
+
+For 0 shots
+Confusion Matrix:
+TN=1248 (Token 4 predicted as 4)
+FP=0 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=752 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 100.00%
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+
+For 1 shots
+Confusion Matrix:
+TN=1230 (Token 4 predicted as 4)
+FP=0 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=770 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 100.00%
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+
+For 2 shots
+Confusion Matrix:
+TN=1222 (Token 4 predicted as 4)
+FP=0 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=778 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 100.00%
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+
+For 3 shots
+Confusion Matrix:
+TN=1207 (Token 4 predicted as 4)
+FP=5 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=788 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.75%
+Precision: 0.9937
+Recall: 1.0000
+F1 Score: 0.9968
+
+
+For 4 shots
+Confusion Matrix:
+TN=1229 (Token 4 predicted as 4)
+FP=24 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=747 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.80%
+Precision: 0.9689
+Recall: 1.0000
+F1 Score: 0.9842
+
+
+For 5 shots
+Confusion Matrix:
+TN=1248 (Token 4 predicted as 4)
+FP=46 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=706 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.70%
+Precision: 0.9388
+Recall: 1.0000
+F1 Score: 0.9684
+
+
+For 6 shots
+Confusion Matrix:
+TN=1213 (Token 4 predicted as 4)
+FP=64 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=723 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.80%
+Precision: 0.9187
+Recall: 1.0000
+F1 Score: 0.9576
+
+
+For 7 shots
+Confusion Matrix:
+TN=1169 (Token 4 predicted as 4)
+FP=85 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=746 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 95.75%
+Precision: 0.8977
+Recall: 1.0000
+F1 Score: 0.9461
+
+
+For 8 shots
+Confusion Matrix:
+TN=1174 (Token 4 predicted as 4)
+FP=97 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=729 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 95.15%
+Precision: 0.8826
+Recall: 1.0000
+F1 Score: 0.9376
+
+
+For 9 shots
+Confusion Matrix:
+TN=1135 (Token 4 predicted as 4)
+FP=128 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=737 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.60%
+Precision: 0.8520
+Recall: 1.0000
+F1 Score: 0.9201
+
+
+For 10 shots
+Confusion Matrix:
+TN=1097 (Token 4 predicted as 4)
+FP=128 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=775 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.60%
+Precision: 0.8583
+Recall: 1.0000
+F1 Score: 0.9237
+
+
+For 11 shots
+Confusion Matrix:
+TN=1094 (Token 4 predicted as 4)
+FP=131 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=775 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.45%
+Precision: 0.8554
+Recall: 1.0000
+F1 Score: 0.9221
+
+
+For 12 shots
+Confusion Matrix:
+TN=1086 (Token 4 predicted as 4)
+FP=131 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=783 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.45%
+Precision: 0.8567
+Recall: 1.0000
+F1 Score: 0.9228
+
+
+For 13 shots
+Confusion Matrix:
+TN=1087 (Token 4 predicted as 4)
+FP=128 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=784 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.55%
+Precision: 0.8596
+Recall: 1.0000
+F1 Score: 0.9245
+
+
+For 14 shots
+Confusion Matrix:
+TN=1075 (Token 4 predicted as 4)
+FP=133 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=792 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.35%
+Precision: 0.8562
+Recall: 1.0000
+F1 Score: 0.9225
+
+
+For 15 shots
+Confusion Matrix:
+TN=1088 (Token 4 predicted as 4)
+FP=127 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=785 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.65%
+Precision: 0.8607
+Recall: 1.0000
+F1 Score: 0.9252
+
+
+For 16 shots
+Confusion Matrix:
+TN=1126 (Token 4 predicted as 4)
+FP=130 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=744 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.50%
+Precision: 0.8513
+Recall: 1.0000
+F1 Score: 0.9197
+
+
+For 17 shots
+Confusion Matrix:
+TN=1129 (Token 4 predicted as 4)
+FP=120 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=751 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 94.00%
+Precision: 0.8622
+Recall: 1.0000
+F1 Score: 0.9260
+
+
+For 18 shots
+Confusion Matrix:
+TN=1163 (Token 4 predicted as 4)
+FP=133 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=704 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.35%
+Precision: 0.8411
+Recall: 1.0000
+F1 Score: 0.9137
+
+
+For 19 shots
+Confusion Matrix:
+TN=1128 (Token 4 predicted as 4)
+FP=123 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=748 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.80%
+Precision: 0.8588
+Recall: 1.0000
+F1 Score: 0.9240
+
+
+For 20 shots
+Confusion Matrix:
+TN=1126 (Token 4 predicted as 4)
+FP=125 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=749 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 93.75%
+Precision: 0.8570
+Recall: 1.0000
+F1 Score: 0.9230
+
+
+For 21 shots
+Confusion Matrix:
+TN=1135 (Token 4 predicted as 4)
+FP=91 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=774 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 95.45%
+Precision: 0.8948
+Recall: 1.0000
+F1 Score: 0.9445
+
+
+For 22 shots
+Confusion Matrix:
+TN=1120 (Token 4 predicted as 4)
+FP=88 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=791 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 95.55%
+Precision: 0.8999
+Recall: 1.0000
+F1 Score: 0.9473
+
+
+For 23 shots
+Confusion Matrix:
+TN=1139 (Token 4 predicted as 4)
+FP=101 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=760 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 94.95%
+Precision: 0.8827
+Recall: 1.0000
+F1 Score: 0.9377
+
+
+For 24 shots
+Confusion Matrix:
+TN=1173 (Token 4 predicted as 4)
+FP=77 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=750 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.15%
+Precision: 0.9069
+Recall: 1.0000
+F1 Score: 0.9512
+
+
+For 25 shots
+Confusion Matrix:
+TN=1199 (Token 4 predicted as 4)
+FP=74 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=727 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.30%
+Precision: 0.9076
+Recall: 1.0000
+F1 Score: 0.9516
+
+
+For 26 shots
+Confusion Matrix:
+TN=1179 (Token 4 predicted as 4)
+FP=71 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=750 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.45%
+Precision: 0.9135
+Recall: 1.0000
+F1 Score: 0.9548
+
+
+For 27 shots
+Confusion Matrix:
+TN=1199 (Token 4 predicted as 4)
+FP=78 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=723 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.10%
+Precision: 0.9026
+Recall: 1.0000
+F1 Score: 0.9488
+
+
+For 28 shots
+Confusion Matrix:
+TN=1213 (Token 4 predicted as 4)
+FP=74 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=713 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.30%
+Precision: 0.9060
+Recall: 1.0000
+F1 Score: 0.9507
+
+
+For 29 shots
+Confusion Matrix:
+TN=1208 (Token 4 predicted as 4)
+FP=75 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=717 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.25%
+Precision: 0.9053
+Recall: 1.0000
+F1 Score: 0.9503
+
+
+For 30 shots
+Confusion Matrix:
+TN=1203 (Token 4 predicted as 4)
+FP=64 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=733 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.80%
+Precision: 0.9197
+Recall: 1.0000
+F1 Score: 0.9582
+
+
+For 31 shots
+Confusion Matrix:
+TN=1193 (Token 4 predicted as 4)
+FP=68 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=738 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.55%
+Precision: 0.9156
+Recall: 1.0000
+F1 Score: 0.9560
+
+
+For 32 shots
+Confusion Matrix:
+TN=1152 (Token 4 predicted as 4)
+FP=57 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=791 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.15%
+Precision: 0.9328
+Recall: 1.0000
+F1 Score: 0.9652
+
+
+For 33 shots
+Confusion Matrix:
+TN=1166 (Token 4 predicted as 4)
+FP=63 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=771 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.85%
+Precision: 0.9245
+Recall: 1.0000
+F1 Score: 0.9607
+
+
+For 34 shots
+Confusion Matrix:
+TN=1138 (Token 4 predicted as 4)
+FP=63 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=799 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.85%
+Precision: 0.9269
+Recall: 1.0000
+F1 Score: 0.9621
+
+
+For 35 shots
+Confusion Matrix:
+TN=1178 (Token 4 predicted as 4)
+FP=75 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=746 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.20%
+Precision: 0.9086
+Recall: 1.0000
+F1 Score: 0.9521
+
+
+For 36 shots
+Confusion Matrix:
+TN=1195 (Token 4 predicted as 4)
+FP=49 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=756 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.55%
+Precision: 0.9391
+Recall: 1.0000
+F1 Score: 0.9686
+
+
+For 37 shots
+Confusion Matrix:
+TN=1222 (Token 4 predicted as 4)
+FP=52 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=726 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.40%
+Precision: 0.9332
+Recall: 1.0000
+F1 Score: 0.9654
+
+
+For 38 shots
+Confusion Matrix:
+TN=1190 (Token 4 predicted as 4)
+FP=49 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=761 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.55%
+Precision: 0.9395
+Recall: 1.0000
+F1 Score: 0.9688
+
+
+For 39 shots
+Confusion Matrix:
+TN=1186 (Token 4 predicted as 4)
+FP=60 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=754 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.00%
+Precision: 0.9263
+Recall: 1.0000
+F1 Score: 0.9617
+
+
+For 40 shots
+Confusion Matrix:
+TN=1183 (Token 4 predicted as 4)
+FP=60 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=757 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.00%
+Precision: 0.9266
+Recall: 1.0000
+F1 Score: 0.9619
+
+
+For 41 shots
+Confusion Matrix:
+TN=1239 (Token 4 predicted as 4)
+FP=50 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=711 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.50%
+Precision: 0.9343
+Recall: 1.0000
+F1 Score: 0.9660
+
+
+For 42 shots
+Confusion Matrix:
+TN=1189 (Token 4 predicted as 4)
+FP=43 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=768 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.85%
+Precision: 0.9470
+Recall: 1.0000
+F1 Score: 0.9728
+
+
+For 43 shots
+Confusion Matrix:
+TN=1205 (Token 4 predicted as 4)
+FP=47 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=748 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.65%
+Precision: 0.9409
+Recall: 1.0000
+F1 Score: 0.9695
+
+
+For 44 shots
+Confusion Matrix:
+TN=1207 (Token 4 predicted as 4)
+FP=49 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=744 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.55%
+Precision: 0.9382
+Recall: 1.0000
+F1 Score: 0.9681
+
+
+For 45 shots
+Confusion Matrix:
+TN=1190 (Token 4 predicted as 4)
+FP=48 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=761 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.55%
+Precision: 0.9407
+Recall: 1.0000
+F1 Score: 0.9694
+
+
+For 46 shots
+Confusion Matrix:
+TN=1223 (Token 4 predicted as 4)
+FP=58 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=719 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.10%
+Precision: 0.9254
+Recall: 1.0000
+F1 Score: 0.9612
+
+
+For 47 shots
+Confusion Matrix:
+TN=1211 (Token 4 predicted as 4)
+FP=60 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=729 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.00%
+Precision: 0.9240
+Recall: 1.0000
+F1 Score: 0.9605
+
+
+For 48 shots
+Confusion Matrix:
+TN=1191 (Token 4 predicted as 4)
+FP=74 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=735 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 96.30%
+Precision: 0.9085
+Recall: 1.0000
+F1 Score: 0.9521
+
+
+For 49 shots
+Confusion Matrix:
+TN=1179 (Token 4 predicted as 4)
+FP=90 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=731 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 95.50%
+Precision: 0.8904
+Recall: 1.0000
+F1 Score: 0.9420

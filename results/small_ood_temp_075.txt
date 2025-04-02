@@ -1,0 +1,15 @@
+number of parameters: 10.63M
+
+
+Confusion Matrix:
+TN=1108 (Token 4 predicted as 4)
+FP=161 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=2 (Token 3 predicted as NO_SET or OTHER)
+TP=729 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 91.85%
+Precision: 0.8191
+Recall: 0.9973
+F1 Score: 0.8994

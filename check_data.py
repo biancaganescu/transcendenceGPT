@@ -1,7 +1,7 @@
 import torch
 
 torch.set_printoptions(threshold=float('inf'))
-data = torch.load("./data/card_set_1_train_1_test/train.pt")
+data, _ = torch.load("./data/in_distr_icl_test/seq_len_50.pt")
 
 print("len data ", len(data))
 count = 0

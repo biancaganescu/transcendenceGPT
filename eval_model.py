@@ -6,12 +6,12 @@ from model import GPTConfig, GPT
 import numpy as np
 import matplotlib.pyplot as plt
 # PARAMS
-temperature = 0.0001
-top_k=5
+temperature = 0.75
+top_k=1
 seed = 1337
 device = 'cuda' 
 dtype = 'bfloat16' if torch.cuda.is_available() and torch.cuda.is_bf16_supported() else 'float16' 
-out_dir = 'out-transcendence-gpt'
+out_dir = None
 exec(open('configurator.py').read()) 
 
 torch.set_printoptions(precision=10, threshold=float('inf'))
@@ -26,7 +26,7 @@ ptdtype = {'float32': torch.float32, 'bfloat16': torch.bfloat16, 'float16': torc
 ctx = nullcontext() if device_type == 'cpu' else torch.amp.autocast(device_type=device_type, dtype=ptdtype)
 
 # Load model
-ckpt_path = os.path.join(out_dir, 'ckpt.pt')
+ckpt_path = os.path.join(out_dir, 'ckpt_step5000.pt')
 checkpoint = torch.load(ckpt_path, map_location=device)
 gptconf = GPTConfig(**checkpoint['model_args'])
 model = GPT(gptconf)
@@ -43,9 +43,11 @@ model.to(device)
 if compile:
     model = torch.compile(model)
 
-data_dir = os.path.join('data', dataset)
+# data_dir = os.path.join('data', dataset)
 
-test_data = torch.load(os.path.join(data_dir, 'test.pt'))[0]
+# test_data = torch.load(os.path.join(data_dir, 'test.pt'))[0]
+
+test_data = torch.load("./data/processed_faulty_only_one_expert/test.pt")
 
 correct_predictions = 0
 

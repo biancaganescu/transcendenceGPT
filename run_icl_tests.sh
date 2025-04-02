@@ -1,10 +1,9 @@
 #!/bin/bash
 
-python eval_model_icl.py config/transcendence_gpt_2_train_2_test.py > results/results_icl_2_train.txt
+python eval_model_icl_in_distr.py config/small_transcendence_gpt_50_train_50_test.py > results/small_model_icl_in_distr.txt
 
+python eval_model_icl_in_distr.py config/big_transcendence_gpt_50_train_50_test.py > results/big_model_icl_in_distr.txt
 
-python eval_model_icl.py config/transcendence_gpt_15_train_15_test.py > results/results_icl_15_train.txt
+python eval_model_icl_ood.py config/small_transcendence_gpt_50_train_50_test.py > results/small_model_icl_ood.txt
 
-
-python eval_model_icl.py config/transcendence_gpt_30_train_30_test.py > results/results_icl_30_train.txt
-
+python eval_model_icl_ood.py config/big_transcendence_gpt_50_train_50_test.py > results/big_model_icl_ood.txt

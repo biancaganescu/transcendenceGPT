@@ -1,0 +1,1019 @@
+
+
+=====================TESTING CHECKPOINT AT STEP 1000=====================
+number of parameters: 38.36M
+
+
+TESTING FOR 1 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 1 ICL SHOTS
+Confusion Matrix:
+TN=4137 (Token 4 predicted as 4)
+FP=143 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=85 (Token 3 predicted as NO_SET or OTHER)
+TP=3635 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.15%
+Precision: 0.9621
+Recall: 0.9772
+F1 Score: 0.9696
+
+
+TESTING FOR 2 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 2 ICL SHOTS
+Confusion Matrix:
+TN=4151 (Token 4 predicted as 4)
+FP=145 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=1 (Token 3 predicted as NO_SET or OTHER)
+TP=3703 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.17%
+Precision: 0.9623
+Recall: 0.9997
+F1 Score: 0.9807
+
+
+TESTING FOR 3 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 3 ICL SHOTS
+Confusion Matrix:
+TN=4139 (Token 4 predicted as 4)
+FP=164 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=8 (Token 3 predicted as NO_SET or OTHER)
+TP=3689 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.85%
+Precision: 0.9574
+Recall: 0.9978
+F1 Score: 0.9772
+
+
+TESTING FOR 4 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 4 ICL SHOTS
+Confusion Matrix:
+TN=4187 (Token 4 predicted as 4)
+FP=81 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=6 (Token 3 predicted as NO_SET or OTHER)
+TP=3726 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 1 (Token 3 predicted as OTHER)
+Accuracy: 98.91%
+Precision: 0.9787
+Recall: 0.9984
+F1 Score: 0.9885
+
+
+TESTING FOR 5 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 5 ICL SHOTS
+Confusion Matrix:
+TN=4166 (Token 4 predicted as 4)
+FP=50 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=1 (Token 3 predicted as NO_SET or OTHER)
+TP=3783 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.36%
+Precision: 0.9870
+Recall: 0.9997
+F1 Score: 0.9933
+
+
+TESTING FOR 6 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 6 ICL SHOTS
+Confusion Matrix:
+TN=4217 (Token 4 predicted as 4)
+FP=46 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=6 (Token 3 predicted as NO_SET or OTHER)
+TP=3731 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 1 (Token 3 predicted as OTHER)
+Accuracy: 99.35%
+Precision: 0.9878
+Recall: 0.9984
+F1 Score: 0.9931
+
+
+TESTING FOR 7 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 7 ICL SHOTS
+Confusion Matrix:
+TN=4192 (Token 4 predicted as 4)
+FP=66 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=11 (Token 3 predicted as NO_SET or OTHER)
+TP=3731 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.04%
+Precision: 0.9826
+Recall: 0.9971
+F1 Score: 0.9898
+
+
+TESTING FOR 8 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 8 ICL SHOTS
+Confusion Matrix:
+TN=4114 (Token 4 predicted as 4)
+FP=82 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=18 (Token 3 predicted as NO_SET or OTHER)
+TP=3786 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.75%
+Precision: 0.9788
+Recall: 0.9953
+F1 Score: 0.9870
+
+
+TESTING FOR 9 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 9 ICL SHOTS
+Confusion Matrix:
+TN=4231 (Token 4 predicted as 4)
+FP=44 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=5 (Token 3 predicted as NO_SET or OTHER)
+TP=3720 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.39%
+Precision: 0.9883
+Recall: 0.9987
+F1 Score: 0.9935
+
+
+TESTING FOR 10 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 10 ICL SHOTS
+Confusion Matrix:
+TN=4178 (Token 4 predicted as 4)
+FP=66 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=26 (Token 3 predicted as NO_SET or OTHER)
+TP=3730 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.85%
+Precision: 0.9826
+Recall: 0.9931
+F1 Score: 0.9878
+
+
+TESTING FOR 11 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 11 ICL SHOTS
+Confusion Matrix:
+TN=4118 (Token 4 predicted as 4)
+FP=144 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=25 (Token 3 predicted as NO_SET or OTHER)
+TP=3713 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.89%
+Precision: 0.9627
+Recall: 0.9933
+F1 Score: 0.9777
+
+
+TESTING FOR 12 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 12 ICL SHOTS
+Confusion Matrix:
+TN=4124 (Token 4 predicted as 4)
+FP=50 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=59 (Token 3 predicted as NO_SET or OTHER)
+TP=3767 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.64%
+Precision: 0.9869
+Recall: 0.9846
+F1 Score: 0.9857
+
+
+TESTING FOR 13 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 13 ICL SHOTS
+Confusion Matrix:
+TN=4091 (Token 4 predicted as 4)
+FP=88 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=50 (Token 3 predicted as NO_SET or OTHER)
+TP=3771 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.28%
+Precision: 0.9772
+Recall: 0.9869
+F1 Score: 0.9820
+
+
+TESTING FOR 14 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 14 ICL SHOTS
+Confusion Matrix:
+TN=4151 (Token 4 predicted as 4)
+FP=96 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=82 (Token 3 predicted as NO_SET or OTHER)
+TP=3671 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.78%
+Precision: 0.9745
+Recall: 0.9782
+F1 Score: 0.9763
+
+
+TESTING FOR 15 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 15 ICL SHOTS
+Confusion Matrix:
+TN=4159 (Token 4 predicted as 4)
+FP=52 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=50 (Token 3 predicted as NO_SET or OTHER)
+TP=3739 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.72%
+Precision: 0.9863
+Recall: 0.9868
+F1 Score: 0.9865
+
+
+TESTING FOR 16 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 16 ICL SHOTS
+Confusion Matrix:
+TN=4141 (Token 4 predicted as 4)
+FP=89 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=19 (Token 3 predicted as NO_SET or OTHER)
+TP=3751 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.65%
+Precision: 0.9768
+Recall: 0.9950
+F1 Score: 0.9858
+
+
+TESTING FOR 17 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 17 ICL SHOTS
+Confusion Matrix:
+TN=4237 (Token 4 predicted as 4)
+FP=52 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=21 (Token 3 predicted as NO_SET or OTHER)
+TP=3690 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.09%
+Precision: 0.9861
+Recall: 0.9943
+F1 Score: 0.9902
+
+
+TESTING FOR 18 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 18 ICL SHOTS
+Confusion Matrix:
+TN=4240 (Token 4 predicted as 4)
+FP=89 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=42 (Token 3 predicted as NO_SET or OTHER)
+TP=3629 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.36%
+Precision: 0.9761
+Recall: 0.9886
+F1 Score: 0.9823
+
+
+TESTING FOR 19 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 19 ICL SHOTS
+Confusion Matrix:
+TN=4211 (Token 4 predicted as 4)
+FP=88 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=34 (Token 3 predicted as NO_SET or OTHER)
+TP=3667 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.47%
+Precision: 0.9766
+Recall: 0.9908
+F1 Score: 0.9836
+
+
+TESTING FOR 20 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 20 ICL SHOTS
+Confusion Matrix:
+TN=4037 (Token 4 predicted as 4)
+FP=120 (Token 4 predicted as 3)
+Other predictions for NO_SET: 1 (Token 4 predicted as OTHER)
+FN=314 (Token 3 predicted as NO_SET or OTHER)
+TP=3528 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 1 (Token 3 predicted as OTHER)
+Accuracy: 94.56%
+Precision: 0.9671
+Recall: 0.9183
+F1 Score: 0.9421
+
+
+TESTING FOR 21 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 21 ICL SHOTS
+Confusion Matrix:
+TN=4112 (Token 4 predicted as 4)
+FP=81 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=87 (Token 3 predicted as NO_SET or OTHER)
+TP=3720 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.90%
+Precision: 0.9787
+Recall: 0.9771
+F1 Score: 0.9779
+
+
+TESTING FOR 22 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 22 ICL SHOTS
+Confusion Matrix:
+TN=4215 (Token 4 predicted as 4)
+FP=41 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=30 (Token 3 predicted as NO_SET or OTHER)
+TP=3714 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 2 (Token 3 predicted as OTHER)
+Accuracy: 99.11%
+Precision: 0.9891
+Recall: 0.9920
+F1 Score: 0.9905
+
+
+TESTING FOR 23 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 23 ICL SHOTS
+Confusion Matrix:
+TN=4196 (Token 4 predicted as 4)
+FP=41 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=30 (Token 3 predicted as NO_SET or OTHER)
+TP=3733 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.11%
+Precision: 0.9891
+Recall: 0.9920
+F1 Score: 0.9906
+
+
+TESTING FOR 24 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 24 ICL SHOTS
+Confusion Matrix:
+TN=4223 (Token 4 predicted as 4)
+FP=31 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=61 (Token 3 predicted as NO_SET or OTHER)
+TP=3685 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.85%
+Precision: 0.9917
+Recall: 0.9837
+F1 Score: 0.9877
+
+
+TESTING FOR 25 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 25 ICL SHOTS
+Confusion Matrix:
+TN=4181 (Token 4 predicted as 4)
+FP=81 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=74 (Token 3 predicted as NO_SET or OTHER)
+TP=3664 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.06%
+Precision: 0.9784
+Recall: 0.9802
+F1 Score: 0.9793
+
+
+TESTING FOR 26 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 26 ICL SHOTS
+Confusion Matrix:
+TN=4125 (Token 4 predicted as 4)
+FP=127 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=41 (Token 3 predicted as NO_SET or OTHER)
+TP=3707 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 1 (Token 3 predicted as OTHER)
+Accuracy: 97.90%
+Precision: 0.9669
+Recall: 0.9891
+F1 Score: 0.9778
+
+
+TESTING FOR 27 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 27 ICL SHOTS
+Confusion Matrix:
+TN=4192 (Token 4 predicted as 4)
+FP=132 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=37 (Token 3 predicted as NO_SET or OTHER)
+TP=3639 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 1 (Token 3 predicted as OTHER)
+Accuracy: 97.89%
+Precision: 0.9650
+Recall: 0.9899
+F1 Score: 0.9773
+
+
+TESTING FOR 28 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 28 ICL SHOTS
+Confusion Matrix:
+TN=4176 (Token 4 predicted as 4)
+FP=84 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=76 (Token 3 predicted as NO_SET or OTHER)
+TP=3664 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.00%
+Precision: 0.9776
+Recall: 0.9797
+F1 Score: 0.9786
+
+
+TESTING FOR 29 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 29 ICL SHOTS
+Confusion Matrix:
+TN=4157 (Token 4 predicted as 4)
+FP=98 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=51 (Token 3 predicted as NO_SET or OTHER)
+TP=3694 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.14%
+Precision: 0.9742
+Recall: 0.9864
+F1 Score: 0.9802
+
+
+TESTING FOR 30 SHOTS
+
+
+RESULTS FOR CHECKPOINT 1000 WITH 30 ICL SHOTS
+Confusion Matrix:
+TN=4224 (Token 4 predicted as 4)
+FP=95 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=41 (Token 3 predicted as NO_SET or OTHER)
+TP=3640 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.30%
+Precision: 0.9746
+Recall: 0.9889
+F1 Score: 0.9817
+
+
+=====================TESTING CHECKPOINT AT STEP 2000=====================
+number of parameters: 38.36M
+
+
+TESTING FOR 1 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 1 ICL SHOTS
+Confusion Matrix:
+TN=4250 (Token 4 predicted as 4)
+FP=30 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=0 (Token 3 predicted as NO_SET or OTHER)
+TP=3720 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.62%
+Precision: 0.9920
+Recall: 1.0000
+F1 Score: 0.9960
+
+
+TESTING FOR 2 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 2 ICL SHOTS
+Confusion Matrix:
+TN=4260 (Token 4 predicted as 4)
+FP=36 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=5 (Token 3 predicted as NO_SET or OTHER)
+TP=3699 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.49%
+Precision: 0.9904
+Recall: 0.9987
+F1 Score: 0.9945
+
+
+TESTING FOR 3 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 3 ICL SHOTS
+Confusion Matrix:
+TN=4271 (Token 4 predicted as 4)
+FP=32 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=56 (Token 3 predicted as NO_SET or OTHER)
+TP=3641 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.90%
+Precision: 0.9913
+Recall: 0.9849
+F1 Score: 0.9881
+
+
+TESTING FOR 4 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 4 ICL SHOTS
+Confusion Matrix:
+TN=4251 (Token 4 predicted as 4)
+FP=17 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=24 (Token 3 predicted as NO_SET or OTHER)
+TP=3708 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.49%
+Precision: 0.9954
+Recall: 0.9936
+F1 Score: 0.9945
+
+
+TESTING FOR 5 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 5 ICL SHOTS
+Confusion Matrix:
+TN=4182 (Token 4 predicted as 4)
+FP=34 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=69 (Token 3 predicted as NO_SET or OTHER)
+TP=3715 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.71%
+Precision: 0.9909
+Recall: 0.9818
+F1 Score: 0.9863
+
+
+TESTING FOR 6 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 6 ICL SHOTS
+Confusion Matrix:
+TN=4231 (Token 4 predicted as 4)
+FP=32 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=50 (Token 3 predicted as NO_SET or OTHER)
+TP=3687 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.98%
+Precision: 0.9914
+Recall: 0.9866
+F1 Score: 0.9890
+
+
+TESTING FOR 7 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 7 ICL SHOTS
+Confusion Matrix:
+TN=4217 (Token 4 predicted as 4)
+FP=41 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=44 (Token 3 predicted as NO_SET or OTHER)
+TP=3698 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.94%
+Precision: 0.9890
+Recall: 0.9882
+F1 Score: 0.9886
+
+
+TESTING FOR 8 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 8 ICL SHOTS
+Confusion Matrix:
+TN=4165 (Token 4 predicted as 4)
+FP=31 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=103 (Token 3 predicted as NO_SET or OTHER)
+TP=3701 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.32%
+Precision: 0.9917
+Recall: 0.9729
+F1 Score: 0.9822
+
+
+TESTING FOR 9 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 9 ICL SHOTS
+Confusion Matrix:
+TN=4221 (Token 4 predicted as 4)
+FP=54 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=147 (Token 3 predicted as NO_SET or OTHER)
+TP=3578 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 97.49%
+Precision: 0.9851
+Recall: 0.9605
+F1 Score: 0.9727
+
+
+TESTING FOR 10 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 10 ICL SHOTS
+Confusion Matrix:
+TN=4212 (Token 4 predicted as 4)
+FP=32 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=47 (Token 3 predicted as NO_SET or OTHER)
+TP=3709 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.01%
+Precision: 0.9914
+Recall: 0.9875
+F1 Score: 0.9895
+
+
+TESTING FOR 11 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 11 ICL SHOTS
+Confusion Matrix:
+TN=4220 (Token 4 predicted as 4)
+FP=42 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=72 (Token 3 predicted as NO_SET or OTHER)
+TP=3666 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.58%
+Precision: 0.9887
+Recall: 0.9807
+F1 Score: 0.9847
+
+
+TESTING FOR 12 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 12 ICL SHOTS
+Confusion Matrix:
+TN=4152 (Token 4 predicted as 4)
+FP=22 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=75 (Token 3 predicted as NO_SET or OTHER)
+TP=3751 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.79%
+Precision: 0.9942
+Recall: 0.9804
+F1 Score: 0.9872
+
+
+TESTING FOR 13 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 13 ICL SHOTS
+Confusion Matrix:
+TN=4163 (Token 4 predicted as 4)
+FP=16 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=47 (Token 3 predicted as NO_SET or OTHER)
+TP=3774 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.21%
+Precision: 0.9958
+Recall: 0.9877
+F1 Score: 0.9917
+
+
+TESTING FOR 14 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 14 ICL SHOTS
+Confusion Matrix:
+TN=4211 (Token 4 predicted as 4)
+FP=36 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=91 (Token 3 predicted as NO_SET or OTHER)
+TP=3662 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.41%
+Precision: 0.9903
+Recall: 0.9758
+F1 Score: 0.9830
+
+
+TESTING FOR 15 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 15 ICL SHOTS
+Confusion Matrix:
+TN=4174 (Token 4 predicted as 4)
+FP=37 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=52 (Token 3 predicted as NO_SET or OTHER)
+TP=3737 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.89%
+Precision: 0.9902
+Recall: 0.9863
+F1 Score: 0.9882
+
+
+TESTING FOR 16 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 16 ICL SHOTS
+Confusion Matrix:
+TN=4191 (Token 4 predicted as 4)
+FP=39 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=30 (Token 3 predicted as NO_SET or OTHER)
+TP=3740 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.14%
+Precision: 0.9897
+Recall: 0.9920
+F1 Score: 0.9909
+
+
+TESTING FOR 17 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 17 ICL SHOTS
+Confusion Matrix:
+TN=4273 (Token 4 predicted as 4)
+FP=16 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=13 (Token 3 predicted as NO_SET or OTHER)
+TP=3698 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.64%
+Precision: 0.9957
+Recall: 0.9965
+F1 Score: 0.9961
+
+
+TESTING FOR 18 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 18 ICL SHOTS
+Confusion Matrix:
+TN=4298 (Token 4 predicted as 4)
+FP=31 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=14 (Token 3 predicted as NO_SET or OTHER)
+TP=3657 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.44%
+Precision: 0.9916
+Recall: 0.9962
+F1 Score: 0.9939
+
+
+TESTING FOR 19 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 19 ICL SHOTS
+Confusion Matrix:
+TN=4257 (Token 4 predicted as 4)
+FP=42 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=31 (Token 3 predicted as NO_SET or OTHER)
+TP=3670 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.09%
+Precision: 0.9887
+Recall: 0.9916
+F1 Score: 0.9902
+
+
+TESTING FOR 20 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 20 ICL SHOTS
+Confusion Matrix:
+TN=4118 (Token 4 predicted as 4)
+FP=40 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=35 (Token 3 predicted as NO_SET or OTHER)
+TP=3807 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.06%
+Precision: 0.9896
+Recall: 0.9909
+F1 Score: 0.9902
+
+
+TESTING FOR 21 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 21 ICL SHOTS
+Confusion Matrix:
+TN=4162 (Token 4 predicted as 4)
+FP=31 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=26 (Token 3 predicted as NO_SET or OTHER)
+TP=3781 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.29%
+Precision: 0.9919
+Recall: 0.9932
+F1 Score: 0.9925
+
+
+TESTING FOR 22 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 22 ICL SHOTS
+Confusion Matrix:
+TN=4227 (Token 4 predicted as 4)
+FP=29 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=19 (Token 3 predicted as NO_SET or OTHER)
+TP=3725 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.40%
+Precision: 0.9923
+Recall: 0.9949
+F1 Score: 0.9936
+
+
+TESTING FOR 23 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 23 ICL SHOTS
+Confusion Matrix:
+TN=4148 (Token 4 predicted as 4)
+FP=89 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=3 (Token 3 predicted as NO_SET or OTHER)
+TP=3760 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 98.85%
+Precision: 0.9769
+Recall: 0.9992
+F1 Score: 0.9879
+
+
+TESTING FOR 24 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 24 ICL SHOTS
+Confusion Matrix:
+TN=4218 (Token 4 predicted as 4)
+FP=36 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=10 (Token 3 predicted as NO_SET or OTHER)
+TP=3736 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.42%
+Precision: 0.9905
+Recall: 0.9973
+F1 Score: 0.9939
+
+
+TESTING FOR 25 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 25 ICL SHOTS
+Confusion Matrix:
+TN=4221 (Token 4 predicted as 4)
+FP=41 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=15 (Token 3 predicted as NO_SET or OTHER)
+TP=3723 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.30%
+Precision: 0.9891
+Recall: 0.9960
+F1 Score: 0.9925
+
+
+TESTING FOR 26 SHOTS
+
+
+RESULTS FOR CHECKPOINT 2000 WITH 26 ICL SHOTS
+Confusion Matrix:
+TN=4227 (Token 4 predicted as 4)
+FP=25 (Token 4 predicted as 3)
+Other predictions for NO_SET: 0 (Token 4 predicted as OTHER)
+FN=3 (Token 3 predicted as NO_SET or OTHER)
+TP=3745 (Token 3 predicted as 3)
+Additional breakdown for SET:
+Other predictions for SET: 0 (Token 3 predicted as OTHER)
+Accuracy: 99.65%
+Precision: 0.9934
+Recall: 0.9992
+F1 Score: 0.9963
+
+
+TESTING FOR 27 SHOTS
