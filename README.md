@@ -3,7 +3,8 @@
 We adapt the code from (nanoGPT)[https://github.com/karpathy/nanoGPT] to train a small transformer on game Set data. The aim of our experiments is to test how transcendence and in-context learning interact. Specifically, we look to see if and in what conditions a model can achieve transcendence on our game Set data by varying the model size, number in shots for in-context learning and sampling temperature. 
 
 # Setup:
-(1) Clone the repository recursively
+(1) Clone the (Transcendence Transformer)[https://github.com/andrewkrapivin/transcendence-transformer/tree/main] repository recursively
+
 (2) Install nanoGPT/transcendenceGPT requirements
 
 To train the models in our paper, run the following commands: 
